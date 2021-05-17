@@ -1,0 +1,103 @@
+{ "frames": {
+   "grap 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "grap 1.aseprite": {
+    "frame": { "x": 32, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   "grap 2.aseprite": {
+    "frame": { "x": 64, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 200
+   },
+   "grap 3.aseprite": {
+    "frame": { "x": 96, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 200
+   },
+   "grap 4.aseprite": {
+    "frame": { "x": 128, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 200
+   },
+   "grap 5.aseprite": {
+    "frame": { "x": 160, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 200
+   },
+   "grap 6.aseprite": {
+    "frame": { "x": 192, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 200
+   },
+   "grap 7.aseprite": {
+    "frame": { "x": 224, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 200
+   },
+   "grap 8.aseprite": {
+    "frame": { "x": 256, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 250
+   },
+   "grap 9.aseprite": {
+    "frame": { "x": 288, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 500
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.x-dev",
+  "image": "grap.png",
+  "format": "RGBA8888",
+  "size": { "w": 320, "h": 16 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "IdleEmptyClosed", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "IdleEmptyOpen", "from": 1, "to": 1, "direction": "forward" },
+   { "name": "EmptyOpening", "from": 2, "to": 6, "direction": "forward" },
+   { "name": "Grappling", "from": 7, "to": 9, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Grap", "opacity": 255, "blendMode": "normal" },
+   { "name": "Wheels", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
